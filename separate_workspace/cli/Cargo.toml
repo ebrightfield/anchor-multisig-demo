@@ -1,0 +1,16 @@
+[package]
+name = "msig-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "3.2.23", features = ["derive"] }
+multisig-demo-sdk = { path = "../sdk" }
+multisig-demo = { path = "../../programs/multisig-demo", features = ["no-entrypoint"] }
+anyhow = "1.0.66"
+solana-sdk = "1.10.29"
+solana-client = "1.10.29"
+solana-cli-config = "1.10.29"
+solana-clap-v3-utils = { path = "../clap-v3-utils" }
+anchor-client = "0.25.0"
+spl-memo = "3.0.1"

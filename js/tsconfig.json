@@ -1,0 +1,24 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "skipLibCheck": true, // TODO remove after fix anchor
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2019",
+    "outDir": "dist/",
+    "rootDir": "src/",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "composite": true
+  }
+}
